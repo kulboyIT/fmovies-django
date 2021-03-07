@@ -40,8 +40,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'users.apps.UsersConfig',
     'movies_list',
-  
+    
+  	
     'crispy_forms',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
